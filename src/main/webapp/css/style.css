@@ -1,0 +1,186 @@
+/* CSS Document */
+<style type="text/css">
+
+.f9 {
+	font-size: 12px;
+	color: #006633;
+	text-decoration: none;
+	line-height: 18px;
+}
+.input {
+	height: 18px;
+	border: 1px solid #003366;
+	font-size: 12px;
+	color: #000000;
+}
+
+.green {
+	font-size: 12px;
+	color: #006633;
+	text-decoration: none;
+	line-height: 18px;
+}
+
+.white {
+
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+	line-height: 18px;
+}
+.grey {
+	font-size: 12px;
+	color: #333333;
+	text-decoration: none;
+}
+/* used in csr_left.htm*/
+.a2:link {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 12px;
+
+}
+.a2:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 12px;
+
+}
+.a2:hover {
+	text-decoration: none;
+	color: #33FF00;
+	font-size: 12px;
+
+}
+.a2:active {
+	text-decoration: none;
+	color: #ABFEA7;
+	font-size: 12px;
+
+}
+/* used in csr_left.htm */
+
+/* used in q2.htm */
+.a3:link {
+	text-decoration: none;
+	color: #333333;
+	font-size: 12px;
+
+}
+.a3:visited {
+	text-decoration: none;
+	color: #333333;
+	font-size: 12px;
+
+}
+.a3:hover {
+	text-decoration: underline;
+	color: #000000;
+	font-size: 12px;
+
+}
+.a3:active {
+	text-decoration: none;
+	color: #333333;
+	font-size: 12px;
+
+}
+/* used in q2.htm */
+/* used in q3.htm */
+.a4:link {
+	text-decoration: none;
+	color: #003300;
+	font-size: 12px;
+
+}
+.a4:visited {
+	text-decoration: none;
+	color: #003300;
+	font-size: 12px;
+
+}
+.a4:hover {
+	text-decoration: underline;
+	color: #003300;
+	font-size: 12px;
+
+}
+.a4:active {
+	text-decoration: none;
+	color: #003300;
+	font-size: 12px;
+
+}
+/* used in q3.htm */
+/* used in csr_left.htm */
+.navtd {
+	height: 31px;
+	padding-top: 9px;
+
+}
+/* used in csr_left.htm */
+.brown {
+	font-size: 12px;
+	color: #61422A;
+
+}
+.contd {
+	padding-left: 10px;
+	padding-top: 2px;
+	font-size: 12px;
+	color: #333333;
+	padding-right: 10px;
+}
+
+.contd2 {
+	padding-left: 10px;
+	padding-top: 7px;
+	font-size: 12px;
+	color: #333333;
+	padding-right: 10px;
+	height: 25px;
+
+}
+
+.input2_brown {
+	height: 18px;
+	font-size: 12px;
+	color: #333333;
+	border-top: 2px solid #C6AF9F;
+	border-right: 1px solid #C6AF9F;
+	border-bottom: 1px solid #C6AF9F;
+	border-left: 2px solid #C6AF9F;
+
+}
+.input2_green {
+	height: 18px;
+	font-size: 12px;
+	color: #333333;
+	border-top: 2px solid #598A63;
+	border-right: 1px solid #598A63;
+	border-bottom: 1px solid #598A63;
+	border-left: 2px solid #598A63;
+
+}
+
+.input2_greenmul {
+	height: 80px;
+	font-size: 12px;
+	color: #333333;
+	border-top: 2px solid #598A63;
+	border-right: 1px solid #598A63;
+	border-bottom: 1px solid #598A63;
+	border-left: 2px solid #598A63;
+
+}
+
+.contd3 {
+	padding-left: 10px;
+	padding-top: 10px;
+	font-size: 12px;
+	color: #333333;
+	padding-right: 10px;
+	height: 33px;
+
+}
+</style>

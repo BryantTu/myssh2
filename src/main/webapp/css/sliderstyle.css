@@ -1,0 +1,76 @@
+UNKNOWN {
+	
+}
+.Tab {
+	BORDER-RIGHT: threeddarkshadow 1px solid;
+	BORDER-TOP: buttonhighlight 1px solid;
+	FONT-SIZE: 12px;
+	BORDER-LEFT: buttonhighlight 1px solid;
+	CURSOR: hand;
+	BORDER-BOTTOM: threeddarkshadow 1px solid;
+	FONT-FAMILY: "Arial", 'MS Sans Serif', 'Times New Roman';
+	HEIGHT: 30px;
+	TEXT-ALIGN: center;
+	color: #2A2A2A;
+	background-image: url(../images/online2_12.gif);
+
+
+}
+.TabOver {
+	BORDER-RIGHT: threeddarkshadow 2px solid;
+	BORDER-TOP: buttonhighlight 1px solid;
+	FONT-SIZE: 12px;
+	BORDER-LEFT: buttonhighlight 1px solid;
+	CURSOR: hand;
+	BORDER-BOTTOM: threeddarkshadow 2px solid;
+	FONT-FAMILY: "Arial", 'MS Sans Serif', 'Times New Roman';
+	HEIGHT: 30px;
+	TEXT-ALIGN: center;
+	background-image: url(../images/online2_18.gif);
+	color: #FFFFFF;
+
+
+}
+.TabInset {
+	BORDER-RIGHT: buttonhighlight 2px inset;
+	BORDER-TOP: buttonface 2px inset;
+	FONT-SIZE: 12px;
+	BORDER-LEFT: buttonface 2px inset;
+	CURSOR: hand;
+	BORDER-BOTTOM: buttonhighlight 2px inset;
+	FONT-FAMILY: "Arial", 'MS Sans Serif', 'Times New Roman';
+	HEIGHT: 30px;
+	TEXT-ALIGN: center;
+	background-image: url(../images/online2_18.gif);
+	color: #FFFFFF;
+
+
+}
+.TabItemInset {
+	BORDER-RIGHT: buttonhighlight 2px inset; BORDER-TOP: buttonface 2px inset; FONT-SIZE: 8pt; BORDER-LEFT: buttonface 2px inset; CURSOR: default; BORDER-BOTTOM: buttonhighlight 2px inset; FONT-FAMILY: Arial, 'MS Sans Serif', 'Times New Roman'; HEIGHT: 20px; TEXT-ALIGN: center
+}
+.TabItem {
+	FONT-SIZE: 8pt; CURSOR: default; COLOR: black; FONT-FAMILY: Arial, 'MS Sans Serif', 'Times New Roman'; TEXT-ALIGN: center
+}
+.TabItemOver {
+	BORDER-RIGHT: 1px outset; BORDER-TOP: 1px outset; FONT-SIZE: 8pt; BORDER-LEFT: 1px outset; CURSOR: default; COLOR: black; BORDER-BOTTOM: 1px outset; FONT-FAMILY: Arial, 'MS Sans Serif', 'Times New Roman'; TEXT-ALIGN: center
+}
+.Over {
+	border: 1px outset;
+
+}
+.Out {
+	BORDER-RIGHT: 0px solid; BORDER-TOP: 0px solid; BORDER-LEFT: 0px solid; BORDER-BOTTOM: 0px solid
+}
+.Inset {
+	BORDER-RIGHT: buttonhighlight 1px inset; BORDER-TOP: buttonface 1px inset; BORDER-LEFT: buttonface 1px inset; BORDER-BOTTOM: buttonhighlight 1px inset
+}
+.CaptionItem {
+	BORDER-RIGHT: 0px solid; BORDER-TOP: 0px solid; BORDER-LEFT: 0px solid; CURSOR: hand; BORDER-BOTTOM: 0px solid
+}
+.CaptionItemOver {
+	BORDER-RIGHT: 1px outset; BORDER-TOP: 1px outset; BORDER-LEFT: 1px outset; BORDER-BOTTOM: 1px outset
+}
+.CaptionItemInset {
+	BORDER-RIGHT: buttonhighlight 1px inset; BORDER-TOP: buttonface 1px inset; BORDER-LEFT: buttonface 1px inset; BORDER-BOTTOM: buttonhighlight 1px inset
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<include file="struts-default.xml" />
+
+	<package name="login" extends="struts-default">
+		<global-results>
+			<result name="error">/jsp/error/syserror.jsp
+			</result>
+		</global-results>
+		<global-exception-mappings>
+			<exception-mapping result="error" exception="java.lang.Exception" />
+		</global-exception-mappings>
+		<action name="login" class="org.sky.ssh.login.action.LoginAction">
+			<result name="success" type="redirectAction">
+				<param name="namespace">/</param>
+				<param name="actionName">indexInit</param>
+			</result>
+			<result name="login">
+				/jsp/login/login.jsp
+			</result>
+		</action>
+	</package>
+	
+	<package name="index" extends="login">
+		<action name="indexInit" class="org.sky.ssh.index.action.IndexAction"
+			method="indexInit">
+			<result>/index.jsp</result>
+		</action>
+	</package>
+	<package name="studentAdmin" extends="login">
+		<action name="*Student" class="org.sky.ssh.index.action.IndexAction"
+			method="{1}Student">
+			<result name="success" type="redirectAction">
+				<param name="namespace">/</param>
+				<param name="actionName">indexInit</param>
+			</result>
+			<result name="forward">/jsp/student/studentUpdate.jsp</result>
+		</action>
+		<!-- 
+		<action name="popUpdateStudent" class="org.sky.ssh.index.action.IndexAction"
+			method="popUpdateStudent">
+			<result name="forward">/jsp/student/studentUpdate.jsp</result>
+		</action>
+		<action name="addStudent" class="org.sky.ssh.index.action.IndexAction"
+			method="addStudent">
+			<result name="success" type="redirectAction">
+				<param name="namespace">/</param>
+				<param name="actionName">indexInit</param>
+			</result>
+		</action>
+		<action name="delStudent" class="org.sky.ssh.index.action.IndexAction"
+			method="delStudent">
+			<result name="success" type="redirectAction">
+				<param name="namespace">/</param>
+				<param name="actionName">indexInit</param>
+			</result>
+		</action>
+		<action name="updateStudent" class="org.sky.ssh.index.action.IndexAction"
+			method="updateStudent">
+			<result name="success" type="redirectAction">
+				<param name="namespace">/</param>
+				<param name="actionName">indexInit</param>
+			</result>	
+		</action>
+		 -->
+	</package>
+</struts>
